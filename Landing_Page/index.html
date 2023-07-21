@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="icon" href="https://lh3.googleusercontent.com/pw/ACtC-3cHIM2WTOaNQyalXqEMxfqbkJukuhtKGuuaKfRkmnQhkZ_b3ikykWH1n_Bb79ET9avu-WVTzpzB00ZFdjUP1mcEIkEh9Prh9mEglbySgcZtqbY7xe1vY2HDjcqNmyrvTn6ZktmbR6aMu0OR__LF-oF-=w800-h531-no" type="image">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+
+        <header>
+            <a href="#" class="logo"><span>D</span>e<span>S</span>tination</a>
+            <div class="menu-btn"></div>
+            <div class="nav">
+                <div class="nav-items">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#">Explore</a>
+                    <a href="#Gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="home">
+            <video class="video" src="video (2160p).mp4"autoplay muted loop></video>
+            <div class="content active">
+                <h1>KULLU<br><span>MANALI</span></h1>
+                <p>Kullu-Manali is one of the most visited, picturesque hill stations in Himachal Pradesh.It's also a most sought destination because of their green mountains and snow-covered hills.</p>
+                <div class="buttons">
+                    <button class="btn-hover color-1">Read More</button>
+                </div>
+            </div>
+            <div class="media_icons">
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>
+        <script type="text/javascript">
+            const menuBtn = document.querySelector(".menu-btn");
+            const nav = document.querySelector(".nav");
+
+            menuBtn.addEventListener("click",() => {
+                menuBtn.classList.toggle("active");
+                nav.classList.toggle("active");
+            });
+
+        </script>
+    </body>
+</html>
