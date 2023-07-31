@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.
     bootstrapcdn.com/font-awesome/4.6.3/css/font-
     awesome.min.css" type="text/css">
+    <link rel="icon" href="img/Logo_po.png" type="image">
     <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/
     boxicons.min.css' rel='stylesheet'>
@@ -18,61 +19,96 @@
 </head>
 
 <body>
-
+<!------------------Header-------------->
     <header class="header">
-        <a href="#" class="logo">Port<span>fo</span>lio</a>
-        <nav class="navbar">
-            <a href="#" style="--i:1;" class="active">Home</a>
-            <a href="#" style="--i:2;">About</a>
-            <a href="#portfolio" style="--i:3;">Projects</a>
+        <a href="#" class="logo">Po<span>rtf</span>olio</a>
+        <div class="menu-btn"></div>
+        <nav class="nav">
+            <div class="nav-items">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#projects" style="--i:3;">Projects</a>
             <a href="#skills" style="--i:4;">Skills</a>
             <a href="#hire" style="--i:5;">Hire <span>me!</span></a>
-            <img src="img/sun.png" id="icon",class="icon">
+            <img style="--i:6;" src="img/sun.png" id="icon",class="icon">
+            </div>
+            
         </nav>
     </header>
+
+<!--------------Header----------------------->
    
 
-    <section class="home">
+    <!-----------------Home section---------------->
+
+    <section class="home" id="home">
         <div class="home_content">
             <h3>Hello, It's</h3>
             <h1>Durganand <span>Singh</span></h1>
-            <!-- <h3>And I'm a <span class="multiple-text"></span></h3> -->
             <h3>I'm a
                 <span
                    class="txt-rotate"
                    data-period="2000"
                    data-rotate='[ "Frontend Developer.", "Programmer.", "Logo Designer." ]'></span>
               </h3>
-              
-            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit. Nemo, corrupti. Est maxime dolore odio ratione 
-            similique, illo, ipsa vel. Itaque, dolorum qui!</p> -->
-            <!-- <div class="social_media">
-                
-                <a href="#"><i class='fa fa-support'></i></a>
-                <a href="#"><i class='fa fa-support'></i></a>
-                <a href="#"><i class='fa fa-support'></i></a>
-                <a href="#"><i class='fa fa-support'></i></a>
-            </div> -->
 
             <a href="files/My CV.pdf" download="CV" class="btn">Download CV</a>
         </div>
         <div class="home_img">
-            <img src="img/It's me1.png" alt="">
+            <img src="img/It_s_me1-removebg-preview.png" alt="">
         </div>
     </section>
 
+    <!---------------About section------------->
 
-    <section class="portfolio" id="portfolio">
+    <section class="about" id="about">
+        <div class="main-text">
+            <h2><span>About</span> Me</h2>
+        </div>
+        <div class="items">
+            <div class="about-img">
+                <img src="img/It's me1.png" alt="">
+            </div>
+            <div class="about-text">
+                <h1>Frontend Developer | Programmer | Logo Designer</h1>
+                <p>I'm a Frontend Developer - develop awesome interface design for any type of websites using HTML, CSS and Java Script. And, I'm also a logo designer - design unique and impactful logos.</p>
+                     <div class="media_icons">
+                        <a href="#"><i class='bx bxl-telegram'></i></a>
+                <a href="https://github.com/Du-Nothing"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/durganand-singh-940160276/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.linkedin.com/in/durganand-singh-940160276/"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                     <div class="btns">
+                        <a href="files/My CV.pdf" download="CV" class="btn">More About</a>
+                        <a href="files/My CV.pdf" download="CV" class="btn">Download CV</a>
+                     </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------About section-------------->
+
+<!----------------------Projects--------------------------->
+    <section class="projects" id="projects">
         <div class="main-text">
             <h2><span>Latest</span> Projects</h2>
         </div>
-        <div class="portfolio-content">
+        <div class="projects-content">
+
+            <div class="row">
+                <img src="img/ethereal.png" >
+                <div class="layer">
+                    <h5>Ethereal</h5>
+                    <p>It was a group project for GDSC .</p>
+                    <a href="#"> <i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+
             <div class="row">
                 <img src="img/LOGO MART.png" >
                 <div class="layer">
-                    <h5>Visual Design</h5>
-                    <p>Check out 10 best Design's updates for the top web design & development compaines.</p>
+                    <h5>S Mart</h5>
+                    <p>It's a small shopping site and here also an option available to visit another shopping sites.</p>
                     <a href="#"> <i class='bx bxl-github'></i></a>
                 </div>
             </div>
@@ -80,45 +116,36 @@
             <div class="row">
                 <img src="img/Calci1.png" >
                 <div class="layer">
-                    <h5>Visual Design</h5>
-                    <p>Check out 10 best Design's updates for the top web design & development compaines.</p>
-                    <a href="#"> <i class='bx bx-link-external'></i></a>
+                    <h5>Calculator</h5>
+                    <p>It's a good looking calculator and also calculate some basic maths operations .</p>
+                    <a href="#"> <i class='bx bxl-github'></i></a>
                 </div>
             </div>
     
             <div class="row">
                 <img src="img/R_P_S.png" >
                 <div class="layer">
-                    <h5>Visual Design</h5>
-                    <p>Check out 10 best Design's updates for the top web design & development compaines.</p>
-                    <a href="#"> <i class='bx bx-link-external'></i></a>
+                    <h5>Game</h5>
+                    <p>It's a rock paper scissor game. Here we can play with computer .</p>
+                    <a href="#"> <i class='bx bxl-github'></i></a>
                 </div>
             </div>
     
             <div class="row">
                 <img src="img/Screenshot (288).png">
                 <div class="layer">
-                    <h5>Visual Design</h5>
-                    <p>Check out 10 best Design's updates for the top web design & development compaines.</p>
-                    <a href="#"> <i class='bx bx-link-external'></i></a>
+                    <h5>Drawing</h5>
+                    <p>It's a drawing site where we can draw different things.</p>
+                    <a href="#"> <i class='bx bxl-github'></i></a>
                 </div>
-            </div>
+            </div> 
     
             <div class="row">
-                <img src="img/project5.jpg" >
+                <img src="img/Portfolio ss.png" >
                 <div class="layer">
-                    <h5>Visual Design</h5>
-                    <p>Check out 10 best Design's updates for the top web design & development compaines.</p>
-                    <a href="#"> <i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-    
-            <div class="row">
-                <img src="img/project6.jpg" >
-                <div class="layer">
-                    <h5>Visual Design</h5>
-                    <p>Check out 10 best Design's updates for the top web design & development compaines.</p>
-                    <a href="#"> <i class='bx bx-link-external'></i></a>
+                    <h5>Portfolio</h5>
+                    <p>You are watching this now.</p>
+                    <a href="#"> <i class='bx bxl-github'></i></a>
                 </div>
             </div>
         </div>
@@ -149,71 +176,28 @@
     </section>
 
     <!------------------Hire section------------>
+
 <section class="hire" id="hire">
 	<div class="hire-text">
 		<h2>Hire <span>me!</span></h2>
 		<h4>If you have any project then...</h4>
-		<p>I'm a website Designer - creating awesome interface design for compaines all across the world.</p>
+		<p>I'm a website Designer - create awesome interface design for all across the world.</p>
 		
 	</div>
 	<div class="hire-form">
+        <!-- <form action="https://formsubmit.co/e084c9fde6c643ee2b96ad761ba835cc" method="POST"> -->
 		<form onsubmit="sendEmail(); reset(); return false;">
 			<input type="text" id="name" placeholder="Your Name " required>
 			<input type="email" id="email" placeholder="Your Email " required>
 			<input type="number" id="phone" placeholder="your Mobile Number" required>
-			<textarea name="" id="message" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<textarea id="message" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
 			<input type="submit" value="Send Message" class="submit" required>
 		</form>
 
 	</div>
-    <!-- <div class="list">
-        <li><a href="#">8797092089</a></li>
-        <li><a href="#">durganand2376@gmail.com</a></li>
-         <li><a href="#">Like Share & Subscribe</a></li> 
-    </div>
-
-    <div class="hire-icons">
-        <a href="#"><i class='bx bxl-facebook'></i></a>
-        <a href="#"><i class='bx bxl-twitter' ></i></a>
-        <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-        <a href="#"><i class='bx bxl-youtube' ></i></a>
-    </div> -->
-
-    <footer id="footer">
-        <div class="contain">
-          <div class="row">
-            
-            <div class="footer-col">
-              <h4>Miscellaneous</h4>
-              <ul>
-                <li><a href="#">Terms and Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h4>Contact Us</h4>
-              <ul>
-                <li><a class="lowercase" href="mailto:durganand2376@gmail.com?Subject=Some%20subject">durganand2376@gmail.com</a></li>
-                <li><a href="tel:8797092089" class="lowercase">8797092089</a></li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h4>follow us</h4>
-              <div class="social-links">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="https://github.com/Du-Nothing"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="https://www.linkedin.com/in/durganand-singh-940160276/"><i class='bx bxl-youtube'></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="copyright">
-          ©2023-93 : All Rights Reserved
-        </div>
-     </footer>
-
 </section>
+
+<!------------------------Hire section---------------->
 
 </body>
 
@@ -227,24 +211,6 @@
     <script src="https://cdn.jsdelivr.net/npm/
     typed.js@2.0.12"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
- function sendEmail(){
-    Email.send({
-    Host : "smtp.gmail.com",
-    Username : "takeandfake12@gmail.com",
-    Password : "Durga2376@fake",
-    To : 'durganand2376@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "New Contact Form Enquiry",
-    Body : "Name: " + document.getElementById("name").value
-    + "<br> Email: " + document.getElementById("email").value
-    + "<br> Phone no: " + document.getElementById("phone").value
-    + "<br> Message: " + document.getElementById("message").value
-  }).then(
-    message => alert("Message sent successfully")    
-  );
- }
-    </script>
     <script src="port.js"></script>
 </body>
 </html>
