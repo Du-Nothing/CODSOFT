@@ -671,6 +671,17 @@ form textarea {
         box-shadow: 0 0 10px #9f1ee9;
         filter: drop-shadow(0 0 5px #0ef);
     }
+    .about-text{
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 70px;
+        padding-bottom: 30px;
+    }
+    .home_content {
+        max-width: 600px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
     
     
 }
